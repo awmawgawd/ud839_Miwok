@@ -15,8 +15,12 @@
  */
 package com.example.android.miwok;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class NumbersActivity extends AppCompatActivity {
 
@@ -24,5 +28,14 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+
+        TextView numbers = (TextView) findViewById(R.id.first);
+
+
+        // Set a click listener on that View
+        NumbersClickListener clickListener = new NumbersClickListener();
+        numbers.setOnClickListener(clickListener);
     }
+
+
 }
