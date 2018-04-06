@@ -20,6 +20,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,9 +46,23 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
+        /* View in log */
         for (int i = 0; i < words.size(); i++) {
             Log.v("NumbersActivity", "Word at index " + i + ": " + words.get(i));
         }
+
+        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
+
+        int index = 0;
+
+        while(index < words.size()) {
+            TextView wordView = new TextView(this);
+            wordView.setText(words.get(index));
+            rootView.addView(wordView);
+            index++;
+        }
+
+
     }
 
 
