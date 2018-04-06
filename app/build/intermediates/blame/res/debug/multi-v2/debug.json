@@ -174,21 +174,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,175,283,406,512,619,708,809,933,1017,1098,1185,1292,1404,1506,1614,1721,1828,1950,2049",
-                        "endColumns": "119,107,122,105,106,88,100,123,83,80,86,106,111,101,107,106,106,121,98,100",
-                        "endOffsets": "170,278,401,507,614,703,804,928,1012,1093,1180,1287,1399,1501,1609,1716,1823,1945,2044,2145"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
             "map": [
                 {
@@ -199,6 +184,21 @@
                         "startOffsets": "55,174,282,405,513,630,718,824,945,1024,1102,1186,1295,1406,1507,1617,1734,1842,1965,2067",
                         "endColumns": "118,107,122,107,116,87,105,120,78,77,83,108,110,100,109,116,107,122,101,100",
                         "endOffsets": "169,277,400,508,625,713,819,940,1019,1097,1181,1290,1401,1502,1612,1729,1837,1960,2062,2163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,933,1017,1098,1185,1292,1404,1506,1614,1721,1828,1950,2049",
+                        "endColumns": "119,107,122,105,106,88,100,123,83,80,86,106,111,101,107,106,106,121,98,100",
+                        "endOffsets": "170,278,401,507,614,703,804,928,1012,1093,1180,1287,1399,1501,1609,1716,1823,1945,2044,2145"
                     }
                 }
             ]
@@ -385,16 +385,16 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-pt\\values-pt.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,203,274,344,414,482,550,614",
-                        "endColumns": "76,70,70,69,69,67,67,63,54",
-                        "endOffsets": "127,198,269,339,409,477,545,609,664"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2048",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,100",
+                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2144"
                     }
                 }
             ]
@@ -415,16 +415,16 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
+            "outputFile": "C:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-v4_values-xlarge-v4.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\green\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\3ec5406f8289400119392cc08dd48e83\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2048",
-                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,100",
-                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2144"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,203,274,344,414,482,550,614",
+                        "endColumns": "76,70,70,69,69,67,67,63,54",
+                        "endOffsets": "127,198,269,339,409,477,545,609,664"
                     }
                 }
             ]
