@@ -1,4 +1,4 @@
-#Fri Apr 06 03:10:00 CDT 2018
+#Fri Apr 06 03:59:05 CDT 2018
 base.0=C\:\\Users\\green\\OneDrive\\AndroidProg\\MiwokU\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 path.1=classes.dex
 renamed.1=classes2.dex
