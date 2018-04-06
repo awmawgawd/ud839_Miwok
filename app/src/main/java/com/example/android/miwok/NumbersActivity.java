@@ -20,7 +20,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,14 +54,12 @@ public class NumbersActivity extends AppCompatActivity {
             Log.v("NumbersActivity", "Word at index " + i + ": " + words.get(i));
         }
 
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
 
+        GridView listView = (GridView) findViewById(R.id.gridview);
 
-        for(int index = 0; index < words.size(); index++){
-            TextView wordView = new TextView(this);
-            wordView.setText(words.get(index));
-            rootView.addView(wordView);
-        }
+        listView.setAdapter(itemsAdapter);
+
 
 
     }
